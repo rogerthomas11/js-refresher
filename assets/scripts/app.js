@@ -105,3 +105,73 @@
 
 // console.log(name);
 // console.log(age);
+
+// THE SPREAD OPERATOR
+
+// const hobbies = ["Gardening", "Hockey"];
+// const user = {
+//     name: "Roger",
+//     age: 28
+// };
+
+// const newHobbies = ["Coding", "Woodworking"];
+
+// const mergedHobbies = [...hobbies, ...newHobbies];
+// console.log(mergedHobbies);
+
+// const extendedUser = {
+//     isAdmin: true,
+//     ...user
+// };
+// console.log(extendedUser);
+
+// CONTROL STRUCTURES
+
+// const password = prompt("Your password");
+
+// if (password === "Hello") {
+//     console.log("Hello works");
+// } else if (password === "hello") {
+//     console.log("hello works");
+// } else {
+//     console.log("Access not granted");
+// }
+
+// const hobbies = ["Gardening", "Hockey"];
+
+// for (let hobby of hobbies) {
+//     console.log(hobby);
+// }
+
+// const list = document.querySelector("ul");
+// list.remove();
+
+// USING FUNCTIONS AS VALUES
+
+// function handleTimeout() {
+//     console.log("Timed out!!");
+// }
+
+// setTimeout(handleTimeout, 2000);
+
+// DEFINING FUNCTIONS INSIDE OF FUNCTIONS
+
+// function init() {
+//     function greet() {
+//         console.log("Hi!");
+//     }
+
+//     greet();
+// }
+
+// init();
+
+// REFERENCE VS PRIMITIVE VALUES
+
+let userMessage = "Hello!";
+userMessage = userMessage.concat("!!!");
+
+const hobbies = ["Gardening", "Hockey"];
+hobbies.push("Coding");
+
+console.log(hobbies);
